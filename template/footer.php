@@ -1,4 +1,4 @@
-<footer class="page-footer teal">
+<footer class="page-footer grey lighten-3">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
@@ -27,9 +27,9 @@
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+    <div class="footer-copyright black">
+      <div class="container black darker-3">
+      <a class="white-text text-darker-3" href="http://ehsan-cv.herokuapp.com">Ehsan Rafeeque App Development</a>
       </div>
     </div>
   </footer>

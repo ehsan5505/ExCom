@@ -73,8 +73,28 @@ footer.page-footer {
 /*  float:right;*/
 /*}*/
 
-/*#pagination section{*/
-/*  width:100%;*/
-/*  min-height:600px;*/
-/*  background:#56e3ef;*/
+* {
+  background:#e0e0e0;
+}
+
+/*body {*/
+/*  background:#fff;*/
 /*}*/
+
+.brand-logo{
+  margin:0px 20px;
+}
+
+#pagination section{
+  width:100%;
+  min-height:600px;
+  background:#56e3ef;
+}
+
+div>nav{
+  margin-top:5px;
+  width:95%;
+}
+section{
+  margin-top:30px;
+}

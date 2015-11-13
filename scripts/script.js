@@ -13,6 +13,7 @@ $(document).ready(function(){
   $(".close").click(function(){$(this).hide()});
   $(".manufacturerBar").hide();
   $(".categoryBar").hide();
+  $(".proTypeBar").hide();
   $(".priceBar").hide();
   
   $(".refresh").click(function(){
@@ -50,6 +51,9 @@ $(document).ready(function(){
   
   $("#priceLever").change(function(){
     $(".priceBar").toggle();
+  })
+  $("#proType").change(function(){
+    $(".proTypeBar").toggle();
   })
   
 });

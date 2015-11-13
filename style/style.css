@@ -94,9 +94,10 @@ html {
 div>nav{
   margin-top:5px;
   width:95%;
+  border-left:10px solid red;
 }
 section{
-  margin-top:25px;
+  margin-top:-20px;
   margin-bottom:15px;
   padding:10px;
   border:2px solid #eee;
@@ -105,22 +106,55 @@ section{
 }
 
 aside{
-  width:30%;
+  /*width:25%;*/
   padding:10px;
+  /*margin-left:60px;*/
   border:2px solid #e0e0e0;
   border-radius:10px 30px;
   box-shadow:-3px 5px 10px 5px #eee;
+  /*float:left;*/
 }
 
-form>div ul.breadcrumbs{
-  border:2px solid #e0e0e0;
-  border-radius:2px 12px;
-  padding:2px 10px;
-  margin:12px 0px;
+/*form>div ul.breadcrumbs{*/
+/*  border:2px solid #e0e0e0;*/
+/*  border-radius:2px 12px;*/
+/*  padding:2px 10px;*/
+/*  margin:12px 0px;*/
   /*color:red;*/
   /*color:red;*/
-  background-color:#eee;
-}
+/*  background-color:#eee;*/
+/*}*/
 form>div ul.breadcrumbs a{
   color:#303030;
+}
+
+select option{
+  overflow:visible;
+}
+
+article{
+  width:70%;
+  /*float:left;*/
+}
+footer{
+  clear:both;
+}
+
+.searchBar{
+  margin:10px 5px;
+  /*padding:0px 10px 3px 0;*/
+  /*background-color:#e0e0e0;*/
+  border-bottom:7px solid red;
+  border-left:3px solid red;
+}
+
+.menuBar{
+  margin-top:10px;
+  border-left:4px solid red;
+}
+
+.breadcrumbs{
+  /*margin-top:12px;*/
+  margin-top:10px;
+  padding:0 10px;
 }

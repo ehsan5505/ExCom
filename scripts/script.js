@@ -14,7 +14,9 @@ $(document).ready(function(){
   $(".manufacturerBar").hide();
   $(".categoryBar").hide();
   $(".proTypeBar").hide();
+  $(".profeatBar").hide();
   $(".priceBar").hide();
+  $('select').material_select();
   
   $(".refresh").click(function(){
     location.reload();
@@ -55,5 +57,9 @@ $(document).ready(function(){
   $("#proType").change(function(){
     $(".proTypeBar").toggle();
   })
+  $("#profeat").change(function(){
+    $(".profeatBar").toggle();
+  })
+  
   
 });

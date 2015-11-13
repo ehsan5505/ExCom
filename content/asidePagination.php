@@ -1,14 +1,14 @@
-<aside class="grey lighten-5">
+<aside class="grey lighten-5 col s3">
     
   <form method="post" action="#">
   
   <div>
     
-    <ul class="breadcrumbs">
-      <a href="#breadcrump1">Home</a> /
-      <a href="#breadcrump2">Category1</a> /
-      <a href="#breadcrump3">Category2</a>
-    </ul>
+    <!--<ul class="breadcrumbs">-->
+    <!--  <a href="#breadcrump1">Home</a> /-->
+    <!--  <a href="#breadcrump2">Category1</a> /-->
+    <!--  <a href="#breadcrump3">Category2</a>-->
+    <!--</ul>-->
   
   
     <ul class="collection with header">
@@ -53,6 +53,10 @@
             <td><b><label>Product Type </label></b></td>
             <td><label>OFF<input id="proType" type="checkbox"><span class="lever grey lighten-2"></span>ON</label></td>
           </li>
+          <li class="switch collection-item">
+            <td><b><label>Features </label></b></td>
+            <td><label>OFF<input id="profeat" type="checkbox"><span class="lever grey lighten-2"></span>ON</label></td>
+          </li>
           
         </ul>
           
@@ -67,6 +71,26 @@
               <!-- <label for="printer">Printer</label>-->
               <!--<br/>-->
           </ul>
+          
+          
+          <ul class="profeatBar collection with-header">
+              <li class="collection-header grey lighten-5"><p class="center">Features</p></li>
+                <select class="collection-item">  
+                  <!--<label for="proFam">Product Family</label>-->
+                  <option value="" selected >Product Family</option>
+                  <option value="Corei3" >Core i3</option>
+                  <option value="Corei5">Core i5</option>
+                </select>
+              <select class="collection-item">  
+                <!--<label for="brandName">Brand Name</label>-->
+                <option value="" selected >Brand Name</option>
+                <option value="AMD" >AMD</option>
+                <option value="INTEL">Intel</option>
+                <option value="SOLARIS">Solaris</option>
+              </select>
+              <!--<li class="collection-item">-->
+              <!--</li>-->
+            </ul>
           
           
           
@@ -106,6 +130,8 @@
                 <label for="led">LED</label>
               </li>
             </ul>
+            
+            
     </form>      
 </aside>        
       <!--</form>-->

@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-
+/*PAGINATION*/
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -158,3 +158,37 @@ footer{
   margin-top:10px;
   padding:0 10px;
 }
+
+/*END FROM PAGINATION*/
+
+/*START OF PRODUCT*/
+#product {
+  width:100%;
+}
+
+#product nav{
+  width:90%;
+  padding:none;
+  margin:5px auto;
+  margin-bottom:50px;
+  
+}
+#product section{
+  margin-top:50px;
+/*  border:none;*/
+/*  background-color:transparent;*/
+/*  border-radius:none;*/
+  min-height:600px;
+  width:100%;
+  background-color:white;
+}
+
+img{
+  margin-left:100px;
+  margin-top:50px;
+}
+
+
+/*.mainProduct{*/
+/*  width:80%;*/
+/*}  */

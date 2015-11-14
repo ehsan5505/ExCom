@@ -8,7 +8,7 @@
     </head>
     <body>
         
-         <?php include_once("layout/pagination.php"); ?> 
+         <?php include_once("layout/product.php"); ?> 
         
         <script type="text/javascript" src="scripts/jquery.js"></script>
         <!--<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>-->

@@ -183,11 +183,17 @@ footer{
   background-color:white;
 }
 
-img{
+img.main{
   margin-left:100px;
   margin-top:50px;
 }
 
+div.similar{
+  width:20%;
+  position:fixed;
+  right:10px;
+  background-color:transparent;
+}
 
 /*.mainProduct{*/
 /*  width:80%;*/

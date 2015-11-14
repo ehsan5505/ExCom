@@ -6,7 +6,7 @@
             <div class="mainProduct col s10 white">
                  <div class="col s6 productImage">
                 <!--<aside class="col s6 ">-->
-                    <img src="http://placehold.it/300x300" alt="Image of Product" />
+                    <img class="main" src="http://placehold.it/300x300" alt="Image of Product" />
                 <!--</aside>-->
                 </div>
                 <!--<article class="col s6">-->
@@ -53,8 +53,33 @@
                 <!--</article>-->
             </div>
             
-            <div class="similar">
-                
+            <div class="similar col s2">
+                <!--<div>-->
+                    <a href="#" id="similarClose" class="center"><i class="material-icons">close</i></a>
+            <!--<div class="card-action"><i class="right material-icons">close</i></div>-->
+                <div class="row">
+                    <div class="card small">
+                     <!--<div class="card-content"-->
+                        <div class="card-image">
+                            <img src="http://placehold.it/50x50" /> 
+                            <p class="card-title">Samsung s6</p>
+                        </div>
+                        <div class="card-content">Upgrade to S6</div>
+                        <div class="card-action">$121 </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card small">
+                     <!--<div class="card-content"-->
+                        <div class="card-image">
+                            <img src="http://placehold.it/50x50" /> 
+                            <p class="card-title">Samsung s6</p>
+                        </div>
+                        <div class="card-content">Upgrade to S6</div>
+                        <div class="card-action">$121 </div>
+                    </div>
+                </div>
+                <!--</div>-->
             </div>
             
             

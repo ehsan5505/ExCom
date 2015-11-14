@@ -47,6 +47,7 @@ $(document).ready(function(){
     // }
   });
   
+  
   $("#category").change(function(){
     $(".categoryBar").toggle();
   })
@@ -60,6 +61,8 @@ $(document).ready(function(){
   $("#profeat").change(function(){
     $(".profeatBar").toggle();
   })
-  
+  $("#similarClose").click(function(){
+    $(".similar").fadeOut(1000);
+  })
   
 });
